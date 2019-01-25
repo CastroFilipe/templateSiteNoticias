@@ -1,0 +1,32 @@
+/*Estrutura site*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: #ffffff url('../imagens/fundo.png') repeat-x
+}
+
+#container {
+    border: solid 1px red;
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    border: solid 1px yellow;
+    background: url('../imagens/detalhe-topo.png') no-repeat right top;
+    height: 150px;
+    padding-top: 25px;
+}
+
+.logo {
+    border: solid 1px red;
+    width: 152px;
+    height: 66px;
+    background: url('../imagens/logo.png') no-repeat center;
+    text-indent: -1900px;
+    
+}
