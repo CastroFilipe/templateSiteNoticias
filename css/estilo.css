@@ -2,31 +2,72 @@
 *{
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 body {
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    background: #ffffff url('../imagens/fundo.png') repeat-x
+    background: #ffffff url('../imagens/fundo.png') repeat-x;
 }
 
 #container {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 750px;
     margin: 0 auto;
+    
 }
 
+
+/*cabecalho*/
 #topo {
-    border: solid 1px yellow;
+
     background: url('../imagens/detalhe-topo.png') no-repeat right top;
     height: 150px;
     padding-top: 25px;
 }
 
 .logo {
-    border: solid 1px red;
     width: 152px;
     height: 66px;
     background: url('../imagens/logo.png') no-repeat center;
     text-indent: -1900px;
     
+}
+
+
+/*menu de navegação horizontal*/
+ul {
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: #ffffff;
+    background: url('../imagens/divisor.png') no-repeat left center;   
+}
+
+#topo ul a.primeiro {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+#topo ul a.selecionado {
+    background-color: #de003e;
+    cursor: text;
 }
