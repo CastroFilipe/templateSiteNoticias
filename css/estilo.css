@@ -11,7 +11,6 @@ body {
 }
 
 #container {
-    border: solid 1px yellow;
     width: 750px; 
     margin: 0 auto; /*centraliza o container principal*/
     
